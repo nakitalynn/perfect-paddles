@@ -19,7 +19,9 @@ a:hover {
 }
 
 .hero {
-    background-image: url('images/kayak-bkgd.jpg');
+    background-image: url('images/kayak-bkgd.jpg'); 
+    background-image: contain; 
+    background-size: 80% 80%;
 }
 
 .about {}
