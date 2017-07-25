@@ -1,0 +1,29 @@
+body {
+    color:#2d2d2d;
+}
+
+h2 {
+    color:#646464;
+}
+
+.container{
+    width: 1140px;
+}
+
+a:hover {
+    color:#e2574c;
+}
+
+.navigation a {
+    color:#2d2d2d;
+}
+
+.hero {
+    background-image: url('images/kayak-bkgd.jpg');
+}
+
+.about {}
+
+.rentals {}
+
+#id-selector {}
