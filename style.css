@@ -54,41 +54,154 @@
 }
 
 body {
-    font-family: 'Karla-Regular'
+    background-color: #ccc;
+    font-family: "Karla-Regular";
 }
 
-h1, h3, h4 {
-    font-family: 'Pacifico'
+h1, h2, h3, h4 {
+    font-family:"Pacifico";
+}
+
+.container {
+    max-width: 1144px;
+    margin: auto;
 }
 
 .container{
-    width: 1140px;
+    width: inherit;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rentals container{
+    float: left;
+}
+
+.table{
+    float: right;
+}
+
+.map{
+    width: "600"; 
+    height: "450"; 
+    border:"0"; 
+    style: "border:0"; 
+}
+
+nav {
+    background-color: #e6e6e6;
+}
+
+nav img {
+    height: 46px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+}
+
+.hero { 
+    background-image: url(images/kayak-bkgd.jpg);
+    background-position: center;
+    background-size: cover; 
+    text-align: center;
+    padding: 50px 24px 50px 24px;
+    color: white;
+}
+
+.hero h4 {
+    background-color: rgba(0,0,0,0,5);
+    display: inline-block;
+    padding: 5px;
+}
+
+article {
+    background-color: white;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #646464;
+}
+
+.article{
+    background-color: #e2574c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #b64036;
+}
+
+a {
+    color: #b64036;
 }
 
 a:hover {
-    color:#e2574c;
+    color: #b64035;
 }
 
-.navigation {
-    background-color: pink;
-    position: relative;
-    top: 5%;
-    right: 200px;
-    color:#2d2d2d;
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-starts;
+    max-width: 1096px;
+    margin: auto;
 }
 
-.navigation a{
-    
+.gallert img {
+    max-width: 32%;
+    height: auto;
+    flex: 1;
 }
 
-.hero {
-    background-image: url('images/kayak-bkgd.jpg'); 
-    background-image: contain; 
-    background-size: 80% 80%;
+footer{
+    background-color: rgb(36,36,36);
+    display: flex;
+    justify-content: space-between;
 }
 
-.about {}
+a{
+    color: #e2574c;
+}
 
-.rentals {}
+a:hover {
+    color: #b64036;
+}
 
-#id-selector {}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-starts;
+    max-width: 1096px;
+    margin: auto;
+}
+
+.gallery img{
+    max-width: 32%;
+    height: auto;
+    flex: 1%;
+}
+
+footer{
+    background-color: rgb(36,36,36);
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
